@@ -61,6 +61,8 @@ def main(config):
         dtype = torch.float16
         attn_implementation = 'sdpa'
 
+    print(dtype,attn_implementation,torch.cuda.device_count())
+    
     quantization_config = BitsAndBytesConfig(
         load_in_4bit = True,
         bnb_4bit_compute_dtype = dtype,
