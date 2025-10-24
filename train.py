@@ -93,7 +93,7 @@ def main(config):
         config.model,
         num_labels = 2,
         quantization_config = quantization_config,
-       #device_map = device_map,
+       device_map = device_map,
         use_cache = False,
         dtype = dtype,
         attn_implementation = attn_implementation
