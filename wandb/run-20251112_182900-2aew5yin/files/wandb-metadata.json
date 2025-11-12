@@ -1,0 +1,49 @@
+{
+  "os":  "Linux-6.6.56+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.11.11",
+  "startedAt":  "2025-11-12T18:29:00.641826Z",
+  "args":  [
+    "--model",
+    "google/gemma-2-2b-it",
+    "--run_name",
+    "Sample"
+  ],
+  "program":  "/kaggle/working/LLM-Training/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "lukasheza@gmail.com",
+  "root":  "/kaggle/working/LLM-Training",
+  "host":  "58d6bcc36e0a",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "gpu":  "Tesla T4",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "8656922775552",
+      "used":  "7057667706880"
+    }
+  },
+  "memory":  {
+    "total":  "33662328832"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-23bd0072-22af-b10f-0b78-1cc7980799bd"
+    },
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-0d16ac3c-5e58-ccda-9639-356ac1f8adf8"
+    }
+  ],
+  "cudaVersion":  "12.6",
+  "writerId":  "5r9kiup2hl076xqo6qzueh8kn1lc6sui"
+}
