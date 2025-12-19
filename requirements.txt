@@ -1,0 +1,9 @@
+transformers==4.57.1
+bitsandbytes==0.48.1
+peft==0.17.1
+accelerate==1.10.1
+datasets==4.2.0
+pandas==2.3.3
+scikit-learn==1.7
+wandb==0.22.3
+#flash-attn==2.8.3
