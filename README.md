@@ -32,13 +32,14 @@ git clone https://github.com/LukasHeza/LLM-Training.git
 cd LLM-Training
 python -m pip install -r requirements.txt
 ```
-Execute training:
+    
+Run training:
     
 ```
 accelerate launch --config_file './Config/FSDP_config.yaml' train.py
 ```
 
-The trained weights will be in the `Output` folder.
+The trained adapters will be in the `Output` folder.
 
 # **Inference**
 The inference notebook:  
