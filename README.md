@@ -25,12 +25,16 @@ First download the competition data into the `Data` folder.
 [Gemma 2](https://huggingface.co/google/gemma-2-9b-it) is a gated model so you will need to request 
 access and generate access token on huggingface. Save it as environment variable `HF_TOKEN`. 
 
-To run the training: 
+Download the repository: 
 
 ```
 git clone https://github.com/LukasHeza/LLM-Training.git
 cd LLM-Training
 python -m pip install -r requirements.txt
+```
+Execute training:
+    
+```
 accelerate launch --config_file './Config/FSDP_config.yaml' train.py
 ```
 
